@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>
+        Adaptive Design - [Company Name]
+    </title>
+    <meta name="theme-color" content="#ffffff">
+    <meta name="description" content="Adaptive Design"/>
+    <link rel="icon" type="image/svg+xml" href="https://docs.braintik.vercel.app"/>
+    <link rel="icon" type="image/png" sizes="32x32" href="https://docs.braintik.vercel.app">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://docs.braintik.vercel.app">    
+        
+    <meta property="og:image" content="https://docs.braintik.vercel.app"/>
+    <meta property="og:url" content="https://docs.braintik.vercel.app/documentation/tailwindcss/adaptive-design/">
+    <meta property="og:title" content="Adaptive Design - [Company Name]" />
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="Adaptive Design"/>
+    
+    <meta name="twitter:card" content="summary_large_image"/>
+    <meta name="twitter:site" content=""/>
+    <meta name="twitter:title" content="Adaptive Design - [Company Name]" />
+    <meta name="twitter:description" content="Adaptive Design" />
+    <meta name="twitter:image" content="https://docs.braintik.vercel.app"/>
+
+    <link rel="canonical" href="https://docs.braintik.vercel.app/documentation/tailwindcss/adaptive-design/">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin=""/>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&subset=latin&display=swap"
+          rel="stylesheet"/>
+    
+    <link rel="preload" href="https://docs.braintik.vercel.app/_lib/index.css" as="style">
+    <link rel="stylesheet" href="https://docs.braintik.vercel.app/_lib/index.css"/>
+    <style>
+        :root {
+            color-scheme: light dark;
+        }
+        html {
+            scroll-padding-top: 120px;
+            visibility: hidden;
+            opacity: 0;
+        }
+    </style>
+    <script>
+        function getInitialTheme() {
+            const savedTheme = localStorage.getItem('theme') || 'system';
+            if (savedTheme === 'light' || savedTheme === 'dark') return savedTheme;
+            return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+        }
+        const theme = getInitialTheme();
+        document.documentElement.classList.add('theme-' + theme);
+    </script>
+    
+</head>
+<body>
+
+<div id="root">
+    <sl-drawer id="menu-drawer" label="Documentation" class="drawer__control" placement="top">
+        <div class="body__drawer">
+            <div class="items">
+                
+                    
+                        <sl-button 
+                            class="nav_button  current " 
+                            size="medium" 
+                            href="/"
+                        >
+                            Documentation
+                        </sl-button>
+                         
+                
+            </div>
+            <sl-divider class="divider__drawer"></sl-divider>
+            <nav class="tree">
+                <div class="scroll-panel">
+                    
+                        
+                            
+                            
+                            
+                                <sl-tree class="tree__with_lines" selection="leaf">
+                                    
+                                
+                                    
+                                        
+                                            <sl-tree-item 
+                                                id="FdflmvqsjfUPD3C80oRFF" 
+                                                style="--indent-level: 0"
+                                                class="folder"
+                                            >
+                                                <span>Typescript Basics</span>
+                                                
+                                
+                                    
+                                        <sl-tree-item 
+                                            id="0A2dvMRtDY58DmloqYyeT" 
+                                            style="--indent-level: 1"
+                                            
+                                            class="leaf"
+                                        >
+                                            <a href="/">Introduction</a>
+                                        </sl-tree-item>                                        
+                                    
+                                
+                                    
+                                        <sl-tree-item 
+                                            id="ofvSNAQXfNcKKDu9gkA6m" 
+                                            style="--indent-level: 1"
+                                            
+                                            class="leaf"
+                                        >
+                                            <a href="/documentation/typescript-basics/why-typescript/">Why Typescript?</a>
+                                        </sl-tree-item>                                        
+                                    
+                                
+                                    
+                                        <sl-tree-item 
+                                            id="yGhuBL6PajK0xvXPiOqzl" 
+                                            style="--indent-level: 1"
+                                            
+                                            class="leaf"
+                                        >
+                                            <a href="/documentation/typescript-basics/setting-up-typescript/">Setting Up TypeScript</a>
+                                        </sl-tree-item>                                        
+                                    
+                                
+                             
+                                            </sl-tree-item>
+                                                                                
+                                    
+                                
+                                    
+                                        
+                                            <sl-tree-item 
+                                                id="hzzsDxzhf5N-nKs-iAgiO" 
+                                                style="--indent-level: 0"
+                                                class="folder"
+                                            >
+                                                <span>Tailwindcss</span>
+                                                
+                                
+                                    
+                                        <sl-tree-item 
+                                            id="4JPnxNfZPzcilV2XGOBl3" 
+                                            style="--indent-level: 1"
+                                             selected 
+                                            class="leaf"
+                                        >
+                                            <a href="/documentation/tailwindcss/adaptive-design/">Adaptive Design</a>
+                                        </sl-tree-item>                                        
+                                    
+                                
+                             
+                                            </sl-tree-item>
+                                                                                
+                                    
+                                
+                                    
+                                        
+                                            <sl-tree-item 
+                                                id="0LZDjJ3ea4_iFEyIxLQRK" 
+                                                style="--indent-level: 0"
+                                                class="folder"
+                                            >
+                                                <span>React Js</span>
+                                                
+                                
+                                    
+                                        <sl-tree-item 
+                                            id="UbOfkdPecEYG_1NdLGGG_" 
+                                            style="--indent-level: 1"
+                                            
+                                            class="leaf"
+                                        >
+                                            <a href="/documentation/react-js/new-feature/">New Feature</a>
+                                        </sl-tree-item>                                        
+                                    
+                                
+                             
+                                            </sl-tree-item>
+                                                                                
+                                    
+                                
+                            
+                                </sl-tree>
+                            
+                        
+                        
+                </div>
+            </nav>
+        </div>
+    </sl-drawer>
+
+    <div class="body__wrapper">
+        <div class="nav__container">
+            <nav>
+                <div class="border-box"></div>
+                <div class="logo">
+                    
+                        <div class="icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+  <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L8 2.207l6.646 6.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293z"/>
+  <path d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293z"/>
+</svg>
+
+                        </div>
+                    
+                    <div>
+                        
+                            <span class="line-clamp-1">[Company Name]</span>
+                        
+                    </div>
+                </div>
+                <div class="items">
+                    <div class="container">
+                        
+                            
+                                <sl-button 
+                                    class="nav_button  current " 
+                                    size="medium" 
+                                    href="/"
+                                >
+                                    Documentation
+                                </sl-button>
+                                                    
+                        
+                    </div>
+                </div>
+                <div class="search">
+                    <div>
+                        <sl-button id="search-button" class="search_button">
+                            <sl-icon slot="prefix" name="search"></sl-icon>
+                            Search
+                            <div slot="suffix">
+                                <div class="button__prefix-wrapper">
+                                    <div class="button__prefix-container">
+                                        <sl-icon name="command"></sl-icon>
+                                        <span class="font-w-semibold">K</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </sl-button>
+                    </div>
+                    <div>
+                        <sl-dropdown id="theme-selector" hoist>
+                            <sl-button slot="trigger" class="nav_button">
+                                <sl-icon id="theme-selector-icon" slot="prefix" name="sun"></sl-icon>
+                            </sl-button>
+                            <sl-menu id="theme-selector-menu">
+                                <sl-menu-item type="checkbox" value="light">Light</sl-menu-item>
+                                <sl-menu-item type="checkbox" value="dark">Dark</sl-menu-item>
+                                <sl-menu-item type="checkbox" value="system">System</sl-menu-item>
+                            </sl-menu>
+                        </sl-dropdown>
+                    </div>
+                    <div class="menu">
+                        <sl-button id="menu-open-trigger" class="nav_button" outline>
+                            <sl-icon slot="prefix" name="list"></sl-icon>
+                        </sl-button>
+                    </div>
+                </div>
+            </nav>    
+        </div>
+        <div class="content__container">
+            <aside class="tree">
+                <nav id="nav-tree" class="tree">
+                    
+                        
+                            
+                            
+                            
+                                <sl-tree class="tree__with_lines" selection="leaf">
+                                    
+                                
+                                    
+                                        
+                                            <sl-tree-item 
+                                                id="FdflmvqsjfUPD3C80oRFF" 
+                                                style="--indent-level: 0"
+                                                expanded
+                                                class="folder"
+                                            >
+                                                <span>Typescript Basics</span>
+                                                
+                                
+                                    
+                                        <sl-tree-item 
+                                            id="0A2dvMRtDY58DmloqYyeT" 
+                                            style="--indent-level: 1"
+                                            
+                                            class="leaf"
+                                        >
+                                            <a href="/">Introduction</a>
+                                        </sl-tree-item>                                        
+                                    
+                                
+                                    
+                                        <sl-tree-item 
+                                            id="ofvSNAQXfNcKKDu9gkA6m" 
+                                            style="--indent-level: 1"
+                                            
+                                            class="leaf"
+                                        >
+                                            <a href="/documentation/typescript-basics/why-typescript/">Why Typescript?</a>
+                                        </sl-tree-item>                                        
+                                    
+                                
+                                    
+                                        <sl-tree-item 
+                                            id="yGhuBL6PajK0xvXPiOqzl" 
+                                            style="--indent-level: 1"
+                                            
+                                            class="leaf"
+                                        >
+                                            <a href="/documentation/typescript-basics/setting-up-typescript/">Setting Up TypeScript</a>
+                                        </sl-tree-item>                                        
+                                    
+                                
+                             
+                                            </sl-tree-item>
+                                                                                
+                                    
+                                
+                                    
+                                        
+                                            <sl-tree-item 
+                                                id="hzzsDxzhf5N-nKs-iAgiO" 
+                                                style="--indent-level: 0"
+                                                expanded
+                                                class="folder"
+                                            >
+                                                <span>Tailwindcss</span>
+                                                
+                                
+                                    
+                                        <sl-tree-item 
+                                            id="4JPnxNfZPzcilV2XGOBl3" 
+                                            style="--indent-level: 1"
+                                             selected 
+                                            class="leaf"
+                                        >
+                                            <a href="/documentation/tailwindcss/adaptive-design/">Adaptive Design</a>
+                                        </sl-tree-item>                                        
+                                    
+                                
+                             
+                                            </sl-tree-item>
+                                                                                
+                                    
+                                
+                                    
+                                        
+                                            <sl-tree-item 
+                                                id="0LZDjJ3ea4_iFEyIxLQRK" 
+                                                style="--indent-level: 0"
+                                                expanded
+                                                class="folder"
+                                            >
+                                                <span>React Js</span>
+                                                
+                                
+                                    
+                                        <sl-tree-item 
+                                            id="UbOfkdPecEYG_1NdLGGG_" 
+                                            style="--indent-level: 1"
+                                            
+                                            class="leaf"
+                                        >
+                                            <a href="/documentation/react-js/new-feature/">New Feature</a>
+                                        </sl-tree-item>                                        
+                                    
+                                
+                             
+                                            </sl-tree-item>
+                                                                                
+                                    
+                                
+                            
+                                </sl-tree>
+                            
+                        
+                        
+                </nav>
+                <nav id="white-label-container" class="menu">
+                    <a class="white-label" href="https://tiledocs.com" target="_blank">
+                        <div class="card-container">
+                            <div class="icon-section">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-pencil-square" viewBox="0 0 16 16">
+                                    <path d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z"/>
+                                    <path fill-rule="evenodd" d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5z"/>
+                                </svg>
+                            </div>
+                            <div class="title-section">
+                                <sl-tooltip hoist style="--max-width: 30ch;" placement="top-start" content="This documentation site was created using TileDocs, a fast and user-friendly editor for building and hosting documentation projects.">
+                                    <span>Made with TileDocs</span>
+                                <sl-tooltip>
+                            </div>
+                        </div>
+                    </a>
+                </nav>
+            </aside>
+            
+            <article>
+                <main>
+                    <div class="content">
+                        <h1 id="master-tailwind-css:-build-stunning-and-responsive-uis-with-ease!" dir="ltr" style="text-align: center;"><span style="white-space: pre-wrap;">Master Tailwind CSS: Build Stunning &amp; Responsive UIs with Ease!</span></h1><h2 id="introduction-to-tailwind-css" dir="ltr"><b><strong class="text-bold" style="white-space: pre-wrap;">Introduction to Tailwind CSS</strong></b></h2><h3 id="what-is-tailwind-css" dir="ltr"><b><strong class="text-bold" style="white-space: pre-wrap;">What is Tailwind CSS?</strong></b></h3><p dir="ltr"><span style="white-space: pre-wrap;">Tailwind CSS is a </span><b><strong class="text-bold" style="white-space: pre-wrap;">utility-first</strong></b><span style="white-space: pre-wrap;"> CSS framework that allows developers to design UI components directly in their HTML/JSX using predefined utility classes. Unlike traditional CSS frameworks (like Bootstrap), Tailwind does not provide pre-styled components but instead gives low-level utility classes to build custom designs efficiently.</span></p><blockquote dir="ltr"><p dir="ltr"><b><strong class="text-bold" style="white-space: pre-wrap;">"Tailwind CSS is like writing inline styles but with superpowers!"</strong></b></p></blockquote><hr><h3 id="why-use-tailwind-css" dir="ltr"><b><strong class="text-bold" style="white-space: pre-wrap;">Why Use Tailwind CSS?</strong></b></h3><p dir="ltr"><span style="white-space: pre-wrap;">✅ </span><b><strong class="text-bold" style="white-space: pre-wrap;">Faster Development</strong></b><span style="white-space: pre-wrap;"> – No need to write custom CSS; just use utility classes.</span><br><span style="white-space: pre-wrap;">✅ </span><b><strong class="text-bold" style="white-space: pre-wrap;">Highly Customizable</strong></b><span style="white-space: pre-wrap;"> – Easily configure colors, fonts, spacing, etc., via </span><code spellcheck="false" style="white-space: pre-wrap;"><span class="text-code">tailwind.config.js</span></code><span style="white-space: pre-wrap;">.</span><br><span style="white-space: pre-wrap;">✅ </span><b><strong class="text-bold" style="white-space: pre-wrap;">Responsive Design</strong></b><span style="white-space: pre-wrap;"> – Built-in responsive utilities like </span><code spellcheck="false" style="white-space: pre-wrap;"><span class="text-code">sm:</span></code><span style="white-space: pre-wrap;">, </span><code spellcheck="false" style="white-space: pre-wrap;"><span class="text-code">md:</span></code><span style="white-space: pre-wrap;">, </span><code spellcheck="false" style="white-space: pre-wrap;"><span class="text-code">lg:</span></code><span style="white-space: pre-wrap;"> for mobile-first design.</span><br><span style="white-space: pre-wrap;">✅ </span><b><strong class="text-bold" style="white-space: pre-wrap;">Lightweight</strong></b><span style="white-space: pre-wrap;"> – Purges unused CSS, making final CSS files smaller.</span><br><span style="white-space: pre-wrap;">✅ </span><b><strong class="text-bold" style="white-space: pre-wrap;">Consistent Design</strong></b><span style="white-space: pre-wrap;"> – Reduces inconsistencies across the UI.</span></p><hr><h3 id="how-to-install-tailwind-css" dir="ltr"><b><strong class="text-bold" style="white-space: pre-wrap;">How to Install Tailwind CSS?</strong></b></h3><p dir="ltr"><span style="white-space: pre-wrap;">You can use Tailwind CSS in different ways, but the most common method is via npm.</span></p><h4 id="1-install-tailwind-in-a-react-project-(recommended)" dir="ltr"><b><strong class="text-bold" style="white-space: pre-wrap;">1️⃣ Install Tailwind in a React Project (Recommended)</strong></b></h4><p dir="ltr"><span style="white-space: pre-wrap;">npm install -D tailwindcss postcss autoprefixer</span><br><span style="white-space: pre-wrap;">npx tailwindcss init -p</span><br></p><p dir="ltr"><span style="white-space: pre-wrap;">This will generate a </span><code spellcheck="false" style="white-space: pre-wrap;"><span class="text-code">tailwind.config.js</span></code><span style="white-space: pre-wrap;"> file.</span></p><h4 id="2-configure-tailwind-to-process-css" dir="ltr"><b><strong class="text-bold" style="white-space: pre-wrap;">2️⃣ Configure Tailwind to Process CSS</strong></b></h4><p dir="ltr"><span style="white-space: pre-wrap;">Open </span><code spellcheck="false" style="white-space: pre-wrap;"><span class="text-code">tailwind.config.js</span></code><span style="white-space: pre-wrap;"> and update the content:</span></p><p dir="ltr"><span style="white-space: pre-wrap;">module.exports = {</span><br><span style="white-space: pre-wrap;">  content: ["./src/**/*.{js,jsx,ts,tsx}"], // Adjust paths as needed</span><br><span style="white-space: pre-wrap;">  theme: {</span><br><span style="white-space: pre-wrap;">    extend: {},</span><br><span style="white-space: pre-wrap;">  },</span><br><span style="white-space: pre-wrap;">  plugins: [],</span><br><span style="white-space: pre-wrap;">};</span><br></p><h4 id="3-add-tailwind-to-your-css" dir="ltr"><b><strong class="text-bold" style="white-space: pre-wrap;">3️⃣ Add Tailwind to Your CSS</strong></b></h4><p dir="ltr"><span style="white-space: pre-wrap;">In </span><code spellcheck="false" style="white-space: pre-wrap;"><span class="text-code">index.css</span></code><span style="white-space: pre-wrap;"> (or </span><code spellcheck="false" style="white-space: pre-wrap;"><span class="text-code">globals.css</span></code><span style="white-space: pre-wrap;">), import Tailwind directives:</span></p><p dir="ltr"><span style="white-space: pre-wrap;">@tailwind base;</span><br><span style="white-space: pre-wrap;">@tailwind components;</span><br><span style="white-space: pre-wrap;">@tailwind utilities;</span><br></p><h4 id="4-start-using-tailwind-classes-in-jsx" dir="ltr"><b><strong class="text-bold" style="white-space: pre-wrap;">4️⃣ Start Using Tailwind Classes in JSX</strong></b></h4><p dir="ltr"><span style="white-space: pre-wrap;">export default function App() {</span><br><span style="white-space: pre-wrap;">  return (</span><br><span style="white-space: pre-wrap;">    &lt;div className="flex items-center justify-center h-screen bg-gray-100"&gt;</span><br><span style="white-space: pre-wrap;">      &lt;h1 className="text-4xl font-bold text-blue-600"&gt;Hello, Tailwind CSS! 🚀&lt;/h1&gt;</span><br><span style="white-space: pre-wrap;">    &lt;/div&gt;</span><br><span style="white-space: pre-wrap;">  );</span><br><span style="white-space: pre-wrap;">}</span><br></p><hr><h3 id="tailwind-css-utility-classes-example" dir="ltr"><b><strong class="text-bold" style="white-space: pre-wrap;">Tailwind CSS Utility Classes Example</strong></b></h3><table><colgroup><col><col></colgroup><tbody><tr><th><p dir="ltr"><span style="white-space: pre-wrap;">Feature</span></p></th><th><p dir="ltr"><span style="white-space: pre-wrap;">Example Classes</span></p></th></tr><tr><td><p dir="ltr"><b><strong class="text-bold" style="white-space: pre-wrap;">Spacing</strong></b></p></td><td><p dir="ltr"><code spellcheck="false" style="white-space: pre-wrap;"><span class="text-code">p-4</span></code></p><p><span style="white-space: pre-wrap;">, </span></p><p dir="ltr"><code spellcheck="false" style="white-space: pre-wrap;"><span class="text-code">m-2</span></code></p><p><span style="white-space: pre-wrap;">, </span></p><p dir="ltr"><code spellcheck="false" style="white-space: pre-wrap;"><span class="text-code">px-6</span></code></p><p><span style="white-space: pre-wrap;">, </span></p><p dir="ltr"><code spellcheck="false" style="white-space: pre-wrap;"><span class="text-code">py-8</span></code></p></td></tr><tr><td><p dir="ltr"><b><strong class="text-bold" style="white-space: pre-wrap;">Typography</strong></b></p></td><td><p dir="ltr"><code spellcheck="false" style="white-space: pre-wrap;"><span class="text-code">text-xl</span></code></p><p><span style="white-space: pre-wrap;">, </span></p><p dir="ltr"><code spellcheck="false" style="white-space: pre-wrap;"><span class="text-code">font-bold</span></code></p><p><span style="white-space: pre-wrap;">, </span></p><p dir="ltr"><code spellcheck="false" style="white-space: pre-wrap;"><span class="text-code">text-center</span></code></p></td></tr><tr><td><p dir="ltr"><b><strong class="text-bold" style="white-space: pre-wrap;">Colors</strong></b></p></td><td><p dir="ltr"><code spellcheck="false" style="white-space: pre-wrap;"><span class="text-code">bg-blue-500</span></code></p><p><span style="white-space: pre-wrap;">, </span></p><p dir="ltr"><code spellcheck="false" style="white-space: pre-wrap;"><span class="text-code">text-red-600</span></code></p><p><span style="white-space: pre-wrap;">, </span></p><p dir="ltr"><code spellcheck="false" style="white-space: pre-wrap;"><span class="text-code">border-gray-300</span></code></p></td></tr><tr><td><p dir="ltr"><b><strong class="text-bold" style="white-space: pre-wrap;">Flexbox/Grid</strong></b></p></td><td><p dir="ltr"><code spellcheck="false" style="white-space: pre-wrap;"><span class="text-code">flex</span></code></p><p><span style="white-space: pre-wrap;">, </span></p><p dir="ltr"><code spellcheck="false" style="white-space: pre-wrap;"><span class="text-code">grid</span></code></p><p><span style="white-space: pre-wrap;">, </span></p><p dir="ltr"><code spellcheck="false" style="white-space: pre-wrap;"><span class="text-code">items-center</span></code></p><p><span style="white-space: pre-wrap;">, </span></p><p dir="ltr"><code spellcheck="false" style="white-space: pre-wrap;"><span class="text-code">justify-between</span></code></p></td></tr><tr><td><p dir="ltr"><b><strong class="text-bold" style="white-space: pre-wrap;">Borders</strong></b></p></td><td><p dir="ltr"><code spellcheck="false" style="white-space: pre-wrap;"><span class="text-code">border</span></code></p><p><span style="white-space: pre-wrap;">, </span></p><p dir="ltr"><code spellcheck="false" style="white-space: pre-wrap;"><span class="text-code">border-2</span></code></p><p><span style="white-space: pre-wrap;">, </span></p><p dir="ltr"><code spellcheck="false" style="white-space: pre-wrap;"><span class="text-code">rounded-lg</span></code></p></td></tr><tr><td><p dir="ltr"><b><strong class="text-bold" style="white-space: pre-wrap;">Shadows</strong></b></p></td><td><p dir="ltr"><code spellcheck="false" style="white-space: pre-wrap;"><span class="text-code">shadow-md</span></code></p><p><span style="white-space: pre-wrap;">, </span></p><p dir="ltr"><code spellcheck="false" style="white-space: pre-wrap;"><span class="text-code">shadow-lg</span></code></p><p><span style="white-space: pre-wrap;">, </span></p><p dir="ltr"><code spellcheck="false" style="white-space: pre-wrap;"><span class="text-code">shadow-xl</span></code></p></td></tr><tr><td><p dir="ltr"><b><strong class="text-bold" style="white-space: pre-wrap;">Hover/Focus</strong></b></p></td><td><p dir="ltr"><code spellcheck="false" style="white-space: pre-wrap;"><span class="text-code">hover:bg-green-500</span></code></p><p><span style="white-space: pre-wrap;">, </span></p><p dir="ltr"><code spellcheck="false" style="white-space: pre-wrap;"><span class="text-code">focus:outline-none</span></code></p></td></tr></tbody></table><hr><h3 id="tailwind-responsive-design" dir="ltr"><b><strong class="text-bold" style="white-space: pre-wrap;">Tailwind Responsive Design</strong></b></h3><p dir="ltr"><span style="white-space: pre-wrap;">Tailwind makes responsiveness easy with </span><b><strong class="text-bold" style="white-space: pre-wrap;">mobile-first classes</strong></b><span style="white-space: pre-wrap;">:</span></p><p dir="ltr"><span style="white-space: pre-wrap;">&lt;div className="p-4 sm:p-6 md:p-8 lg:p-10 xl:p-12"&gt;</span><br><span style="white-space: pre-wrap;">  {/* Different paddings for different screen sizes */}</span><br><span style="white-space: pre-wrap;">&lt;/div&gt;</span><br></p><table><colgroup><col><col></colgroup><tbody><tr><th><p dir="ltr"><span style="white-space: pre-wrap;">Screen Size</span></p></th><th><p dir="ltr"><span style="white-space: pre-wrap;">Prefix</span></p></th></tr><tr><td><p dir="ltr"><span style="white-space: pre-wrap;">Small (640px)</span></p></td><td><p dir="ltr"><code spellcheck="false" style="white-space: pre-wrap;"><span class="text-code">sm:</span></code></p></td></tr><tr><td><p dir="ltr"><span style="white-space: pre-wrap;">Medium (768px)</span></p></td><td><p dir="ltr"><code spellcheck="false" style="white-space: pre-wrap;"><span class="text-code">md:</span></code></p></td></tr><tr><td><p dir="ltr"><span style="white-space: pre-wrap;">Large (1024px)</span></p></td><td><p dir="ltr"><code spellcheck="false" style="white-space: pre-wrap;"><span class="text-code">lg:</span></code></p></td></tr><tr><td><p dir="ltr"><span style="white-space: pre-wrap;">Extra Large (1280px)</span></p></td><td><p dir="ltr"><code spellcheck="false" style="white-space: pre-wrap;"><span class="text-code">xl:</span></code></p></td></tr></tbody></table><hr><h3 id="dark-mode-support" dir="ltr"><b><strong class="text-bold" style="white-space: pre-wrap;">Dark Mode Support</strong></b></h3><p dir="ltr"><span style="white-space: pre-wrap;">Enable dark mode in </span><code spellcheck="false" style="white-space: pre-wrap;"><span class="text-code">tailwind.config.js</span></code><span style="white-space: pre-wrap;">:</span></p><p dir="ltr"><span style="white-space: pre-wrap;">module.exports = {</span><br><span style="white-space: pre-wrap;">  darkMode: 'class', // Enables dark mode using 'class' strategy</span><br><span style="white-space: pre-wrap;">  content: ["./src/**/*.{js,jsx,ts,tsx}"],</span><br><span style="white-space: pre-wrap;">  theme: { extend: {} },</span><br><span style="white-space: pre-wrap;">  plugins: [],</span><br><span style="white-space: pre-wrap;">};</span><br></p><p dir="ltr"><span style="white-space: pre-wrap;">Now you can toggle dark mode using:</span></p><p dir="ltr"><span style="white-space: pre-wrap;">&lt;div className="dark:bg-gray-800 dark:text-white"&gt;</span><br><span style="white-space: pre-wrap;">  Dark mode content</span><br><span style="white-space: pre-wrap;">&lt;/div&gt;</span><br></p><hr><h3 id="conclusion" dir="ltr"><b><strong class="text-bold" style="white-space: pre-wrap;">Conclusion</strong></b></h3><p dir="ltr"><span style="white-space: pre-wrap;">Tailwind CSS is a powerful and flexible CSS framework that enhances development speed and maintains a clean, scalable codebase. If you love </span><b><strong class="text-bold" style="white-space: pre-wrap;">utility-first design</strong></b><span style="white-space: pre-wrap;"> and want </span><b><strong class="text-bold" style="white-space: pre-wrap;">full control over your UI</strong></b><span style="white-space: pre-wrap;">, Tailwind is a great choice!</span></p><p dir="ltr"><span style="white-space: pre-wrap;">Would you like a </span><b><strong class="text-bold" style="white-space: pre-wrap;">Tailwind + React</strong></b><span style="white-space: pre-wrap;"> starter template or some animations using </span><b><strong class="text-bold" style="white-space: pre-wrap;">GSAP with Tailwind?</strong></b><span style="white-space: pre-wrap;"> 🚀</span></p>
+                    </div>
+                </main>
+                <div class="footer">
+                    <div class="content">
+                        <div class="date">
+                            <div>Mar 11, 2025</div>
+                        </div>
+                        
+                            <a href="/documentation/typescript-basics/setting-up-typescript/" class="column left-column" title="Setting Up TypeScript">
+                                <div class="icon">
+                                    <sl-icon name="chevron-left"></sl-icon>
+                                </div>
+                                <div class="label">
+                                    <div class="title">PREVIOUS</div>
+                                    <div class="line-clamp-2">
+                                        Setting Up TypeScript
+                                    </div>
+                                </div>
+                            </a>
+                        
+                        
+                            <a href="/documentation/react-js/new-feature/" class="column right-column" title="New Feature">
+                                <div class="label">
+                                    <div class="title">NEXT</div>
+                                    <div class="line-clamp-2">
+                                        New Feature
+                                    </div>
+                                </div>
+                                <div class="icon">
+                                    <sl-icon name="chevron-right"></sl-icon>
+                                </div>
+                            </a>
+                        
+                    </div>
+                </div>
+            </article>
+            <aside class="toc">
+                <nav class="toc">
+                    
+                    <div class="title">
+                        <sl-icon class="icon" name="list-nested"></sl-icon>
+                        <div>
+                            On this page
+                        </div>
+                    </div>
+                    <div id="toc-list" class="list">
+                        
+                            
+                                <div class="heading-2 line-clamp-2">
+                                    <a href="/documentation/tailwindcss/adaptive-design/#introduction-to-tailwind-css">Introduction to Tailwind CSS</a>
+                                </div>
+                                
+                        
+                            
+                                <div class="heading-3 line-clamp-2">
+                                    <a href="/documentation/tailwindcss/adaptive-design/#what-is-tailwind-css">What is Tailwind CSS?</a>
+                                </div>
+                                
+                        
+                            
+                                <div class="heading-3 line-clamp-2">
+                                    <a href="/documentation/tailwindcss/adaptive-design/#why-use-tailwind-css">Why Use Tailwind CSS?</a>
+                                </div>
+                                
+                        
+                            
+                                <div class="heading-3 line-clamp-2">
+                                    <a href="/documentation/tailwindcss/adaptive-design/#how-to-install-tailwind-css">How to Install Tailwind CSS?</a>
+                                </div>
+                                
+                        
+                            
+                                <div class="heading-3 line-clamp-2">
+                                    <a href="/documentation/tailwindcss/adaptive-design/#tailwind-css-utility-classes-example">Tailwind CSS Utility Classes Example</a>
+                                </div>
+                                
+                        
+                            
+                                <div class="heading-3 line-clamp-2">
+                                    <a href="/documentation/tailwindcss/adaptive-design/#tailwind-responsive-design">Tailwind Responsive Design</a>
+                                </div>
+                                
+                        
+                            
+                                <div class="heading-3 line-clamp-2">
+                                    <a href="/documentation/tailwindcss/adaptive-design/#dark-mode-support">Dark Mode Support</a>
+                                </div>
+                                
+                        
+                            
+                                <div class="heading-3 line-clamp-2">
+                                    <a href="/documentation/tailwindcss/adaptive-design/#conclusion">Conclusion</a>
+                                </div>
+                                
+                        
+                    </div>
+                    
+                </nav>
+            </aside>
+        </div>
+        <footer>
+            <div class="stack__column stack__gap-4 stack__center">
+                
+                <div class="stack__row stack__center">
+                    <span><span>Year &copy; Company Name</span></span>
+                </div>
+            </div>
+        </footer>
+    </div>
+</div>
+<sl-dialog id="search-dialog" class="dialog_control dialog__search">
+    <div slot="label">
+        <p>Search</p>
+    </div>
+    <div class="pane stack__column stack__gap-4">
+        <div>
+            <sl-input
+                id="search-input"
+                type="text"
+                size="small"
+                autocomplete="off"
+                autofocus
+                clearable
+                placeholder="Type text you want to search..."
+            >
+            </sl-input>
+        </div>
+        <div id="search-result" class="stack__column stack__gap-4 search-result">
+        </div>
+        <div id="search-footer" class="footer"></div>
+    </div>
+</sl-dialog>
+<script type="module" src="https://docs.braintik.vercel.app/_lib/index.js" data-shoelace="https://docs.braintik.vercel.app/_lib"></script>
+<script type="module">
+    import {initPage, initTheme, initSearch, initToc} from 'https://docs.braintik.vercel.app/_lib/init.js';
+    import {preInitTree} from 'https://docs.braintik.vercel.app/_lib/pre.js';
+    preInitTree();
+    await initPage();
+    await initTheme('system');
+    await initSearch('https://docs.braintik.vercel.app', '1741683421164');
+    document.documentElement.style.visibility = 'visible';
+    document.documentElement.style.opacity = '1';
+    initToc();
+</script>
+
+</body>
+</html>
