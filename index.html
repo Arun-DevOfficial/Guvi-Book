@@ -31,8 +31,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&subset=latin&display=swap"
           rel="stylesheet"/>
     
-    <link rel="preload" href="https://docs.braintik.vercel.app/_lib/index.css" as="style">
-    <link rel="stylesheet" href="https://docs.braintik.vercel.app/_lib/index.css"/>
+    <link rel="preload" href="./_lib/index.css" as="style">
+    <link rel="stylesheet" href="./_lib/index.css"/>
     <style>
         :root {
             color-scheme: light dark;
@@ -498,7 +498,7 @@
             <div class="stack__column stack__gap-4 stack__center">
                 
                 <div class="stack__row stack__center">
-                    <span><span>Year &copy; Company Name</span></span>
+                    <span><span>Year &copy; BrainTik</span></span>
                 </div>
             </div>
         </footer>
@@ -526,14 +526,14 @@
         <div id="search-footer" class="footer"></div>
     </div>
 </sl-dialog>
-<script type="module" src="https://docs.braintik.vercel.app/_lib/index.js" data-shoelace="https://docs.braintik.vercel.app/_lib"></script>
+<script type="module" src="./_lib/index.js" data-shoelace="https://docs.braintik.vercel.app/_lib"></script>
 <script type="module">
-    import {initPage, initTheme, initSearch, initToc} from 'https://docs.braintik.vercel.app/_lib/init.js';
-    import {preInitTree} from 'https://docs.braintik.vercel.app/_lib/pre.js';
+    import {initPage, initTheme, initSearch, initToc} from '/_lib/init.js';
+    import {preInitTree} from './_lib/pre.js';
     preInitTree();
     await initPage();
     await initTheme('system');
-    await initSearch('https://docs.braintik.vercel.app', '1741683421164');
+    await initSearch('./', '1741683421164');
     document.documentElement.style.visibility = 'visible';
     document.documentElement.style.opacity = '1';
     initToc();
